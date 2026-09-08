@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="o,b-i%K9f.}6?Suyx}rb">sprite</variable><variable id="z`=1WF8}8+,vnDYlbV$m">add sprite</variable></variables><block type="game_create_sprite" id="M-)3eoT6POC6/w#:J4rU" disabled-reasons="pxt_automatic_disabled" x="404" y="-43"><value name="x"><shadow type="math_number" id="7:t^q?{$JsVr?{IGEioV" disabled-reasons="pxt_automatic_disabled"><field name="NUM">2</field></shadow></value><value name="y"><shadow type="math_number" id="vHY.Jx$%5Tr9ot{4|6RF" disabled-reasons="pxt_automatic_disabled"><field name="NUM">2</field></shadow></value></block><block type="pxt-on-start" id="*O/?zNk{uVkHHpu$q?.r" x="0" y="0"></block><block type="device_forever" id="Z}`U+d5vXycd``$DJXdm" x="205" y="0"></block><block type="input_logo_event" id="oD3o^Rcn1O[.5cPsrd}b" x="387" y="8"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="music_playable_play" id="zX.%m.[ZDHG_N7mP!Y9^"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="4:7_@ikQ=lF/F=YrA[=E"><value name="melody"><shadow type="melody_editor" id="90yT3nLS3atVPKE,YFs:"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="Io0rU?0XUc!awSYC6uyc"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></statement></block><block type="device_button_event" id="7([12ioA/ka2k~bm}qEj" x="-2" y="120"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="z`FX#!,k!n.Ex7{E#X-S"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_clear_display" id="V*s%yP|h:GV?{!}ea=-D"></block></next></block></statement></block><block type="device_button_event" id="g=Z?NwuYk{q-yk9/CG/X" x="303" y="135"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="AfggKn./h*C~gF:WjjVR"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="C7/PhjlbP^kVa.u)t!B1"></block></next></block></statement></block></xml>
